@@ -56,7 +56,8 @@ while int(tries) != 0:
 
     guess = random.randint(int(scale), int(scale2))
     print("Guess " + str(attempts) + " is " + str(guess))
-    #time.sleep(0.00000000000001)
+    #>>>>>You can edit the number in here to change the delay of guesses (In seconds)<<<<<<<
+    time.sleep(1)
  
     if (guess == int(answer)):
         print("The computer got it right!")
